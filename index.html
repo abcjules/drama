@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>《死水边的美人鱼》</title>
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script type="text/javascript" src="js/touch.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+
+    <style>
+        *{margin:0;padding:0;}
+        html,body{width:100%;height:100%;}
+        .hide{display: none;}
+        .page img{position: absolute;}
+        .icon_up{position: absolute;left:50%;bottom:5%;width:20px;margin-left:-10px;}
+        .left{position:absolute;width:22%;left:75%;bottom:2%;}
+
+        .page-1-1{width:100%;height:100%;background:url("images/one.png") no-repeat left top;background-size: cover;}
+        .page-1-1 .img_1{width:100%;height:30%;bottom:0;}
+        .page-1-1 .img_2{width:50.4%;height:3.15%;left:10.6%;bottom:22.3%;}
+        .page-1-1 .img_3{width:25%;height:2.24%;left:10.53%;bottom:14.46%;}
+
+        .page-2-1{width:100%;height:100%;background:url("images/one_one.png") no-repeat left top;background-size: cover;}
+        .page-2-1 .img_1{width:50.4%;height:3.15%;left:10.6%;bottom:22.3%;}
+        .page-2-1 .img_2{width:54.26%;height:10.64%;left:10.53%;bottom:6.82%;}
+
+        .page-3-1{width:100%;height:100%;background:url("images/one_two.png") no-repeat left top;background-size: cover;}
+        .page-3-1 .img_1{width:50.4%;height:3.15%;left:10.6%;bottom:22.3%;}
+        .page-3-1 .img_2{width:54.26%;height:10.64%;left:10.53%;bottom:6.82%;}
+
+        .page-3-2{width:100%;height:100%;background:url("images/dream_1.png") no-repeat left top;background-size: cover;}
+        .page-3-3{width:100%;height:100%;background:url("images/dream_2.png") no-repeat left top;background-size: cover;}
+        .page-3-4{width:100%;height:100%;background:url("images/dream_3.png") no-repeat left top;background-size: cover;}
+    </style>
+</head>
+<body>
+    <div class="page page-1-1">
+        <div class="wrap">
+            <img src="images/block_1.png" class="img_1 fadeInUp animated">
+            <img src="images/text_1.png" class="img_2 lightSpeedIn animated pt-page-delay500">
+            <img src="images/text_1_1.png" class="img_3 fadeInDown animated pt-page-delay1000">
+            <img src="images/icon_up.png" class="icon_up pt-page-moveIconUp">
+        </div>
+    </div>
+    <div class="page page-2-1">
+        <div class="wrap">
+            <img src="images/text_2.png" class="img_1 pt-page-flipInLeft animated hide">
+            <img src="images/text_2_1.png" class="img_2 fadeInDown animated pt-page-delay500 hide">
+            <img src="images/icon_up.png" class="icon_up pt-page-moveIconUp">
+        </div>
+    </div>
+    <div class="page page-3-1">
+        <div class="wrap">
+            <img src="images/text_3.png" class="img_1 pt-page-flipInLeft animated hide">
+            <img src="images/text_3_1.png" class="img_2 fadeInDown animated pt-page-delay500 hide">
+            <img src="images/left_01.png" class="left hide">
+        </div>
+    </div>
+    <div class="page page-3-2">
+        <div class="wrap"></div>
+    </div>
+    <div class="page page-3-3">
+        <div class="wrap"></div>
+    </div>
+    <div class="page page-3-4">
+        <div class="wrap"></div>
+    </div>
+</body>
+</html>
